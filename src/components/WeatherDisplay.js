@@ -12,12 +12,12 @@ export default function WeatherDisplay(props){
         <div style={style}>
         <p>
             <span>Temperature: {temperature}
-                </span>
-                
-            <span>   {conditions}
             </span>
-       </p>
-        
+        </p>
+        <p>    
+            <span>{conditions}
+            </span>
+        </p>   
     </div>
     )
 }
