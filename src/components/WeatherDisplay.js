@@ -9,8 +9,8 @@ export default function WeatherDisplay(props){
         display: 'inline'
     };
     return (
-        <div style={style}>
-        <p> Temperature: {temperature}
+        <span style={style}>
+        <p>Temperature: {temperature}
            
         </p>
 <p>
@@ -19,6 +19,6 @@ conditions: {conditions}
        
         
        
-    </div>
+    </span>
     )
 }
