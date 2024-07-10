@@ -14,7 +14,7 @@ export default function WeatherDisplay(props){
            
         </p>
 <p>
-conditions: {conditions}
+Conditions: {conditions}
 </p>
        
         
